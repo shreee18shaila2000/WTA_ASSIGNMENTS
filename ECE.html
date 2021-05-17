@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head><title>ECE</title>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+body{
+   padding:0px;
+   margin:0px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+}
+tr:nth-child(odd) 
+{
+background-color:#80cbc47d;
+}
+tr:hover 
+{
+background-color:#9e9e9e;
+}
+.h4{
+text-decoration: underline;
+text-align:center;
+font-size:30px;
+}
+.banner{
+background-image:url(image/ECE.png);
+background-size:cover;
+height:800px;
+background-position: center;
+background-repeat: no-repeat;
+background-color: white;
+background-size: 100%;
+position: relative;
+padding-top:10px;
+font-size:20px;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+  font-size:20px;
+}
+
+
+.H{
+text-align:right;
+ position: relative;
+  color: #ff9800;
+  font-size:50px;
+  padding-top:300px;
+} 
+.H1{
+text-align:right;
+ position: relative;
+  color: #e0e0e0;
+  font-size:45px;
+  padding-top:20px;
+} 
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float:right;
+  
+  top: 100%;
+  right: 80%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-180%, -20%);
+  }
+  .dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align:left;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+<div >
+<ul class="navbar">
+<li ><a  href="MAIN.html">MAIN</a></li>
+<li ><a href="#7th_sem">7TH SEM</a></li>
+<li ><a href="#5th_sem">5TH SEM</a></li>
+<li><a href="#3rd_sem">3RD SEM</a></li>
+<li  class="dropdown">
+
+    <button class="dropbtn">1ST SEM 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#c-cycle">Chemistry-Cycle</a>
+      <a href="#p-cycle">Physics-Cycle</a>
+    </div>
+</li>
+</ul>
+</div>
+<div class="banner" >
+<h1 class="H" >	WELCOME TO DEPARTEMENT OF</h1>
+ <h1 class="H1">ELECTRONICS AND COMMUNICATION ENGINEERING</h1>
+  <button class="button" onclick="window.location.href='https://www.aiet.org.in/department/electronics-communication-engineering/'">Read more</button>
+</div><div id="c-cycle" style="background-color:#E5ECFF;" >
+<h1>1ST SEM SUBJECT(CHEMISTRY_CYCLE) </h1>
+<ul>
+<li>Calculus and Linear Algebra	</li>
+<li>Engineering Chemistry</li>
+<li>C Programming for Problem Solving	</li>
+<li>Basic Electronics</li>
+<li>Elements of Mechanical Engineering</li>
+<li>Engineering chemistry Laboratory</li>
+<li>C Programming Laboratory</li>
+<li>Technical English-I</li>
+</ul>
+<h1 class="h4" >TIME TABLE</h1>
+<h1 class="H2">1ST SEM (CHEMISTRY_CYCLE)</h1>
+<table style="width:100%">
+  <tr>
+    <th>SNO</th>
+    <th>SUBJECT NAME</th>
+    <th>SUBJECT HANDLING FACULTY</th>
+	 <th>SECTION</th>
+  </tr>
+  <tr>
+    <td>18MAT11</td>
+    <td>Calculus and Linear Algebra</td>
+    <td>Dr. Prameela Kolake</td>
+	<td rowspan="8"  style="text-align:center;">A</td>
+  </tr>
+  <tr>
+    <td>18CHE12</td>
+    <td>Engineering Chemistry</td>
+    <td>Dr. Ravi Kumar C </td>
+	
+  </tr>
+   <tr>
+    <td>18CPS13</td>
+    <td>C Programming for Problem Solving</td>
+    <td>Mr.Hemanth kumar</td>
+  </tr>
+  <tr>
+    <td>18ELN14</td>
+    <td>Basic Electronics</td>
+    <td>Mr.Sachin s</td>
+	
+  </tr>
+  <tr>
+    <td>18ME15</td>
+    <td>Engineering Chemistry Laboratory</td>
+    <td>Mr.Mohan Reddy</td>
+	
+  </tr>
+  <tr>
+    <td>18CHEL16</td>
+    <td>C Programming for Problem Solving</td>
+    <td>Mr.Hemanth kumar</td>
+	
+  </tr>
+  <tr>
+    <td>18CPL17</td>
+    <td>C Programming for Problem Laboratory</td>
+    <td>Mr.Hemanth kumar</td>
+	
+  </tr>
+  <tr>
+    <td>18EGH18</td>
+    <td>Technical English-I</td>
+    <td>Mr.Sunil</td>
+	
+  </tr>
+</table>
+</div><div id="p-cycle" style="background-color:#E9FBFA;">
+<h1>1ST SEM SUBJECT(PHYSICS_CYCLE) </h1>
+<ul>
+<li>Calculus and Linear Algebra	</li>
+<li>Physics</li>
+<li>Elements of Civil Engineering and Mechanics	</li>
+<li>Engineering Graphics</li>
+<li>Basic Electrical Engineering</li>
+<li>Engineering Physics Laboratory</li>
+<li>Basic Electrical Engineering Laboratory	</li>
+<li>Technical English-I</li>
+</ul>
+<h1 class="h4">TIME TABLE</h1>
+<h1>1ST SEM(PHYSICS_CYCLE)</h1>
+<table style="width:100%">
+  <tr>
+    <th>SNO</th>
+    <th>SUBJECT NAME</th>
+    <th>SUBJECT HANDLING FACULTY</th>
+	 <th>SECTION</th>
+  </tr>
+  <tr>
+    <td>18MAT11</td>
+    <td>Calculus and Linear Algebra</td>
+    <td>Dr. Prameela Kolake</td>
+	<td rowspan="8"  style="text-align:center;">B</td>
+  </tr>
+  <tr>
+    <td>18PHY12</td>
+    <td>Physics</td>
+    <td>Dr. Ramaprasad A T</td>
+	
+  </tr>
+   <tr>
+    <td>18CIV14</td>
+    <td>Elements of Civil Engineering and Mechanics</td>
+    <td>Mr.Santhosh Kumar</td>
+	
+  </tr>
+  <tr>
+    <td>18EGDL15</td>
+    <td>Engineering Graphics</td>
+    <td>Mr.Sachin </td>
+	
+  </tr>
+  <tr>
+    <td>18ELE17</td>
+    <td>Basic Electrical Engineering</td>
+    <td>Mr.Suresh kp</td>
+	
+  </tr>
+  <tr>
+    <td>18PHYL16</td>
+    <td>Engineering Physics Laboratory</td>
+    <td>Ms.Ashwini</td>
+	
+  </tr>
+  <tr>
+    <td>18EGHL18</td>
+    <td>Basic Electrical Engineering lab</td>
+    <td>Mr.Suresh</td>
+	
+  </tr>
+  <tr>
+    <td>18EGH18</td>
+    <td>Technical English-I</td>
+    <td>Mr.Sunil</td>
+	
+  </tr>
+</table>
+</div><div id="3rd_sem"  style="background-color:#FFE5FF;">
+<h1>3RD SEM SUBJECT </h1>
+<ul>
+<li>Transform Calculus, Fourier Series and Numerical Techniques</li>
+<li>Network Theory	</li>
+<li>Digital System Design</li>
+<li>Computer Organization & Architecture</li>
+<li>Power Electronics & Instrumentation	</li>
+<li>Electronic Devices & Instrumentation Laboratory</li>
+<li>Digital System DesignLaborator</li>
+<li>Constitution of India, Professional Ethics and Cyber Law</li>
+</ul>
+<h1 class="h4" >TIME TABLE</h1>
+<h1>3RD SEM</h1>
+<table style="width:100%">
+  <tr>
+    <th>SNO</th>
+    <th>SUBJECT NAME</th>
+    <th>SUBJECT HANDLING FACULTY</th>
+	 <th>SECTION</th>
+  </tr>
+   <tr>
+    <td>18MAT31</td>
+    <td>Calculus and Linear Algebra</td>
+    <td>Dr. Prameela Kolake</td>
+	<td rowspan="9"  style="text-align:center;">A</td>
+  </tr>
+  <tr>
+    <td>18ECL37</td>
+    <td>Electronic Devices & Instrumentation Laboratory</td>
+    <td>Ms.Spandana</td>
+	
+  </tr>
+  <tr>
+    <td>18ECL38	</td>
+    <td>Digital System DesignLaboratory</td>
+    <td>Mr.Rakesh M</td>
+	
+  </tr>
+   <tr>
+    <td>18KVK39	</td>
+    <td>Vyavaharika Kannada (Kannada for communication)</td>
+    <td>Mr.Santhosh Kumar</td>
+	
+  </tr>
+  <tr>
+    <td>18KAK39	</td>
+    <td>Aadalitha Kannada (Kannada for Administration)</td>
+    <td>Mr.Sachin </td>
+	
+  </tr>
+  <tr>
+    <td>18EC42</td>
+    <td>Analog Circuits</td>
+    <td>Mr.Suresh kp</td>
+	
+  </tr>
+  <tr>
+    <td>18EC43	</td>
+    <td>Control Systems</td>
+    <td>Mrs.Nishma</td>
+	
+  </tr>
+  <tr>
+    <td>18EC44	</td>
+    <td>Engineering Statistics & Linear Algebra</td>
+    <td>Mr.Santhos</td>
+	
+  </tr>
+  <tr>
+    <td>18EC45	</td>
+    <td>Signals & Systems</td>
+    <td>Mr.Sree Sankar</td>
+	  </tr>
+</table>
+</div><div id="5th_sem" style="background-color:#c1f0c1;">
+<h1>5TH SEM SUBJECT </h1>
+<ul>
+<li>Technological Innovation Management And Entrepreneurship</li>
+<li>Principles of Communication Systems</li>
+<li>Information Theory & Coding</li>
+<li>Electromagnetic Waves</li>
+<li>Verilog HDL		</li>
+<li>Digital Signal Processing Laboratory</li>
+<li>HDL Laboratory</li>
+<li>Environmental Studies</li>
+</ul>
+<h1 class="h4" >TIME TABLE</h1>
+<h1>5TH SEM</h1>
+<table style="width:100%">
+  <tr>
+    <th>SNO</th>
+    <th>SUBJECT NAME</th>
+    <th>SUBJECT HANDLING FACULTY</th>
+	 <th>SECTION</th>
+  </tr>
+   <tr>
+    <td>18ES51	</td>
+    <td>Technological Innovation Management And Entrepreneurship</td>
+    <td>Mrs.Vijata </td>
+	<td rowspan="9"  style="text-align:center;">B</td>
+  </tr>
+  <tr>
+    <td>18ECL37</td>
+    <td>Electronic Devices & Instrumentation Laboratory</td>
+    <td>Spandana</td>
+	
+  </tr>
+  <tr>
+    <td>18EC52</td>
+    <td>Digital Signal Processing	</td>
+    <td>Mr.Rakesh M</td>
+	
+  </tr>
+   <tr>
+    <td>18EC53	</td>
+    <td>Principles of Communication Systems</td>
+    <td>Mr.Santhosh Kumar</td>
+	
+  </tr>
+  <tr>
+    <td>18EC54		</td>
+    <td>Information Theory & Coding	5</td>
+    <td>Mr.Sachin </td>
+	
+  </tr>
+  <tr>
+    <td>18EC55	</td>
+    <td>Electromagnetic Waves</td>
+    <td>Mr.Suresh kp</td>
+	
+  </tr>
+  <tr>
+    <td>18ECL57</td>
+    <td>Digital Signal Processing Laboratory</td>
+    <td>Mrs.Nishma</td>
+	
+  </tr>
+  <tr>
+    <td>18ECL58	</td>
+    <td>HDL Laboratory</td>
+    <td>Mrs.Vedashree</td>
+	
+  </tr>
+  <tr>
+    <td>18CIV59	</td>
+    <td>Environmental Studies</td>
+    <td>Mr.Sunil</td>
+	</tr>
+</table>
+</div><!--
+---><div id="7th_sem"  style="background-color: #ffffb3;">
+<h1>7TH SEM SUBJECTS </h1>
+<ul>
+<li>Microwave and Antennas</li>
+<li>Digital Image Processing</li>
+<li>Power Electronics</li>
+<li>Multimedia Communication</li>
+<li>Biomedical Signal Processing	</li>
+<li>Real Time Systems</li>
+<li>Advanced Communication Lab</li>
+<li>VLSI Lab</li>
+</ul>
+<h1 class="h4" >TIME TABLE</h1>
+<h1>7TH SEM</h1>
+<table style="width:100%">
+  <tr>
+    <th>SNO</th>
+    <th>SUBJECT NAME</th>
+    <th>SUBJECT HANDLING FACULTY</th>
+	 <th>SECTION</th>
+  </tr>
+   <tr>
+    <td>17EC71	</td>
+    <td>Microwave and Antennas</td>
+    <td>Mrs.Shreya U</td>
+	<td rowspan="9"  style="text-align:center;">A</td>
+  </tr>
+  <tr>
+    <td>17EC72</td>
+    <td>Digital Image Processing</td>
+    <td>Mrs.Spandana</td>
+	
+  </tr>
+  <tr>
+    <td>17EC73</td>
+    <td>Power Electronics	</td>
+    <td>Mr.Rakesh M</td>
+	
+  </tr>
+   <tr>
+    <td>17EC74	</td>
+    <td>Multimedia Communication</td>
+    <td>Mr.Anil Kumar</td>
+	
+  </tr>
+  <tr>
+    <td>17EC75		</td>
+    <td>Biomedical Signal Processing</td>
+    <td>Mr.Santhosh </td>
+	
+  </tr>
+  <tr>
+    <td>18EC76	</td>
+    <td>Real Time Systems</td>
+    <td>Mr.Suresh kp</td>
+	
+  </tr>
+  <tr>
+    <td>17EC77</td>
+    <td>Real Time Systems</td>
+    <td>Mrs.Nishma</td>
+	
+  </tr>
+  <tr>
+    <td>17ECL78	</td>
+    <td>Advanced Communication Lab</td>
+    <td>Mrs.Vidya</td>
+	
+  </tr>
+  <tr>
+    <td>17ECL79</td>
+    <td>VSLI Lab</td>
+    <td>Mr.Aditya Rao</td>
+	</tr>
+</table>
+</div>
+</body>
+</html>
+
+
+
+
+
